@@ -1,0 +1,13 @@
+{
+  "db_user": "postgres",
+  "db_host": "127.0.0.1",
+  "db_pass": "1@situnani",
+  "db_port": "5432",
+  "db_schema": "bonial",
+  "titleAkasPath": "../input/title.akas.tsv",
+  "titleBasicsPath": "../input/title.basics.tsv",
+  "awsAccessKeyId": "XXXXXXXXXX",
+  "awsSecretAccessKey": "XXXXXXXXX",
+  "s3DataLakeLocation": "s3a://imdb-data-lake/parquet-data",
+  "metaDataPartitionCount": "10"
+}
