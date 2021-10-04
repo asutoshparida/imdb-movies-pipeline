@@ -14,7 +14,7 @@ setup(name='imdb-movies-pipeline',
       author_email='ast.jva@gmail.com',
       entry_points = {
               'console_scripts': [
-                  'ar = controller.AmazonReviewETL:main',
+                  'imdbpro = controller.IMDBMoviesETL:main',
               ],
           },
       classifiers=[
